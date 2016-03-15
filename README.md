@@ -13,3 +13,17 @@ Como se muestra en la imágen esas son las líneas respectivas al cálculo del d
 
 Para analizar las velocidades de tráfico de datos de red se usó el speedtest-cli. Dicha “herramienta” nos permite ver nuestro ping, la velocidad y descarga dado un host ubicado en un área cercana. Dicho host estaba en bogotá. Con el speedtest pudimos analizar éste tráfico y usando algunas funciones de bash filtramos la información que necesitábamos y la ubicamos en un archivo de texto. En pro de leerlo de forma más sencilla. Se adjuntará el código respectivo para ser aún más explícitos de cómo funciona el script en general.
 
+
+Requerimientos de HW
+
+El proyecto debio ser desarrollado mediante el uso del Raspberry pi como sistema de computo, el disco duro de ester es una sd de al menos 8 GB de de almacenamiento.
+
+Requerimientos de SW
+
+El proyecto requiere desarrollar uno o multiples scripts en bash, con el fin de monitorear los recursos computacionales de la raspberry pi  recursos como Disco disponible, CPU utilizada , memoria usada, e informacion de la red como PING Download speed y Upload speed.
+
+Se debe tambien idear una manera de correr el script multiples ocaciones , de manera automatizada y subir los resultados aun canal de speedtest.com
+
+
+
+
